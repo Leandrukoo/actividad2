@@ -1,0 +1,110 @@
+body{
+    width: 80%; 
+    margin: 0 auto;
+    
+}
+
+header{
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+}
+ 
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a{
+   padding: 5px 10px;
+   font-size: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: black;
+}
+
+footer{
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    margin-top: 20px;
+}
+.receta{
+    margin-top: 20px;
+    border: 1px;
+    border-style: solid;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+
+main{
+    width: 50%;
+    margin: 50px auto;
+}
+
+main img{
+    border: 1px;
+    border-style: solid;
+}
+main ul{
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.seccion1{
+     text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50% auto;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    margin: 50px auto;
+    background-color: rgb(206, 196, 196);
+}
+
+form section{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+form section label{
+    justify-content: center;
+    width: 80px;
+    margin-right: 0px;
+    text-align: left;
+}
+
+form section textarea, input{
+    padding: 10px;
+    width: 300px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
+.aceptar{
+    background-color: rgb(127, 165, 207);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 0.5px solid black;
+}
+
+.cancelar{
+    background-color: rgb(211, 122, 122);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 0.5px solid black;
+}
